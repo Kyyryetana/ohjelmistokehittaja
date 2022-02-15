@@ -1,0 +1,8 @@
+C:\Users\Okehittaja\source\repos\ohjelmistokehittaja\harjoituksia1-9\harjoituksia1-9\obj\Debug\harjoituksia1-9.csproj.AssemblyReference.cache
+C:\Users\Okehittaja\source\repos\ohjelmistokehittaja\harjoituksia1-9\harjoituksia1-9\obj\Debug\harjoituksia1-9.csproj.SuggestedBindingRedirects.cache
+C:\Users\Okehittaja\source\repos\ohjelmistokehittaja\harjoituksia1-9\harjoituksia1-9\obj\Debug\harjoituksia1-9.csproj.CoreCompileInputs.cache
+C:\Users\Okehittaja\source\repos\ohjelmistokehittaja\harjoituksia1-9\harjoituksia1-9\bin\Debug\harjoituksia1-9.exe.config
+C:\Users\Okehittaja\source\repos\ohjelmistokehittaja\harjoituksia1-9\harjoituksia1-9\bin\Debug\harjoituksia1-9.exe
+C:\Users\Okehittaja\source\repos\ohjelmistokehittaja\harjoituksia1-9\harjoituksia1-9\bin\Debug\harjoituksia1-9.pdb
+C:\Users\Okehittaja\source\repos\ohjelmistokehittaja\harjoituksia1-9\harjoituksia1-9\obj\Debug\harjoituksia1-9.exe
+C:\Users\Okehittaja\source\repos\ohjelmistokehittaja\harjoituksia1-9\harjoituksia1-9\obj\Debug\harjoituksia1-9.pdb
