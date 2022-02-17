@@ -12,6 +12,8 @@ namespace harjoituksia1_9
         {
             ///tehtävät 1-5 
             ///en oikein ymmärtänyt että mitä niissä haettiin?
+            ///tehtävä 1
+            
 
             ///tehtävä 6
             string x, y;
