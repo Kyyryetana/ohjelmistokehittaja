@@ -10,7 +10,10 @@ namespace harjoituksia1_9
     {
         static void Main(string[] args)
         {
-            ///yhteen lasku
+            ///tehtävät 1-5 
+            ///en oikein ymmärtänyt että mitä niissä haettiin?
+
+            ///tehtävä 6
             string x, y;
             int summa;
             Console.Write("Anna ensimmäinen luku: ");
@@ -23,27 +26,25 @@ namespace harjoituksia1_9
             Console.ReadLine();
 
 
-            ///vähennys lasku
+            ///tehtävä 7
             int erotus;
             erotus = Int32.Parse(x) - Int32.Parse(y);
             Console.WriteLine("Antamiesi lukujen erotus on: " + erotus);
             Console.ReadLine();
 
 
-            ///kerto lasku
+            ///tehtävä 8
             int tulo;
             tulo = Int32.Parse(x) * Int32.Parse(y);
             Console.WriteLine("Antamiesi lukujen tulo on: " + tulo);
             Console.ReadLine();
 
 
-            ///jako lasku
-            int osamaara;
-            osamaara = Int32.Parse(x) / Int32.Parse(y);
+            ///tehtävä 9
+            double osamaara;
+            osamaara = (double) Int32.Parse(x) / Int32.Parse(y);
             Console.WriteLine("Antamiesi lukujen osamäärä on: " + osamaara);
             Console.ReadLine();
-
-            ///kesken
         }
     }
 }
