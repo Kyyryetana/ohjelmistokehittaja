@@ -54,7 +54,7 @@ namespace harjoituksia_1_7
                     break;
                 case 7: SuuriMuunto();
                     break;
-                default: 
+                default:
                     Console.WriteLine("Syötä luku 1-7 väliltä"); //käyttäjän antama luku ei vastannut mitään sallituista
                     Console.WriteLine("ENTER");
                     Console.ReadLine();
@@ -63,7 +63,7 @@ namespace harjoituksia_1_7
         }
 
         static void LukujenJarjestaminen() //ensimmäinen ohjelma
-        {   alku: //tänne palataan virhe tilanteissa
+        { alku: //tänne palataan virhe tilanteissa
             string eka, toka; //merkkijono muuttujat
             int eka1, toka2; //kokonaisluku muuttujat
             Console.Write("Anna ensimmäinen luku: ");
@@ -92,11 +92,11 @@ namespace harjoituksia_1_7
             Console.ReadLine();
             Main();
         }
-       
+
         static void SuurinKolmesta() //toinen ohjelma
         {
             int[] luvut = new int[3]; //array muuttujan tekeminen
-            alku: // kyseisen ohjelman alku
+        alku: // kyseisen ohjelman alku
 
             try // pyydetään käyttäjältä 3 kokonaislukua
             {
@@ -110,7 +110,7 @@ namespace harjoituksia_1_7
 
             catch (Exception ex) // luvut eivät olleet kokonaislukuja joten palataan kysymään ne uudelleen
             {
-                Console.WriteLine (ex.Message);
+                Console.WriteLine(ex.Message);
                 Console.WriteLine("Antamasi luvut eivät olleet kokonaislukuja");
                 goto alku;
             }
@@ -125,8 +125,8 @@ namespace harjoituksia_1_7
         }
         static void PieniMuunto() //kolmas ohjelma
         {
-            alku: //palataan kyseisen ohjelman alkuun virhe tilanteessa
-            string annettuluku; 
+        alku: //palataan kyseisen ohjelman alkuun virhe tilanteessa
+            string annettuluku;
             int numeroluku;
 
             Console.WriteLine("Ohjelma pyytää sinulta kokonaislukuja 0-7 ja muuttaa ne sanaksi");
@@ -193,7 +193,7 @@ namespace harjoituksia_1_7
         static void SuurinViidesta() //neljäs ohjelma
         {
             int[] luvut = new int[5]; //array muuttujan tekeminen
-            alku: // kyseisen ohjelman alku
+        alku: // kyseisen ohjelman alku
 
             try // pyydetään käyttäjältä 5 kokonaislukua
             {
@@ -229,7 +229,7 @@ namespace harjoituksia_1_7
             int kokoluku; //muuttujat integer, doudle ja string
             double desiluku;
             string merkkijono, syote;
-            valintaalku: //palautuspiste
+        valintaalku: //palautuspiste
             Console.WriteLine("Minkä tyyppisen tiedon haluat syöttää (int, double, string (i/d/s)): ");
             syote = Console.ReadLine();
 
@@ -239,7 +239,7 @@ namespace harjoituksia_1_7
                 {
                     case "i":
                     case "I":
-                        intalku: //interer palautuspiste
+                    intalku: //interer palautuspiste
                         Console.Write("Syötä kokonaisluku: ");
                         try
                         {
@@ -254,12 +254,12 @@ namespace harjoituksia_1_7
                             Console.WriteLine("Ei ollut kokonaisluku tämä");
                             Console.WriteLine("paina ENTER");
                             Console.ReadLine();
-                            goto intalku; 
+                            goto intalku;
                         }
                         break;
                     case "d":
                     case "D":
-                        doublealku: //double palautuspiste
+                    doublealku: //double palautuspiste
                         Console.WriteLine("Syötä desimaaliluku: ");
                         try
                         {
@@ -279,7 +279,7 @@ namespace harjoituksia_1_7
                         break;
                     case "s":
                     case "S":
-                        stringalku: //string palautuspiste
+                    stringalku: //string palautuspiste
                         Console.WriteLine("Syötä merkkijono: ");
                         merkkijono = Console.ReadLine(); //merkkijono siirretty merkkijono muuttujaan
                         Console.WriteLine("Merkkijono on: " + merkkijono);
@@ -289,7 +289,7 @@ namespace harjoituksia_1_7
                         Console.WriteLine("Hmm, jokin meni vikaan");
                         Console.WriteLine("paina ENTER");
                         Console.ReadLine();
-                        goto valintaalku; //kyseisen tehtävän alkuun
+                        goto stringalku; //stringin alkuun alkuun
                 }
             }
             else //jos käyttäjä syöttää muuta kuin sallitut
@@ -305,7 +305,7 @@ namespace harjoituksia_1_7
         static void BonusPisteet() //kuudes ohjelma
         {
             int bonus;
-            bonusalku:
+        bonusalku:
             Console.WriteLine("Anna bonusten määrä välillä 1-9: ");
 
             try
@@ -315,7 +315,7 @@ namespace harjoituksia_1_7
 
             catch (Exception ex)
             {
-                Console.WriteLine (ex.Message);
+                Console.WriteLine(ex.Message);
                 Console.WriteLine("Antamasi arvo ei ollut kokonaisluku, yritä uudelleen");
                 Console.WriteLine("paina ENTER");
                 Console.ReadLine();
@@ -351,27 +351,228 @@ namespace harjoituksia_1_7
 
             Main();
         }
-        static void SuuriMuunto() 
+        static void SuuriMuunto() //käytännössä kopio opettajan koodista, koska en saanut toimimaan. valittaa jatkuvasti c#kielen versiosta ja
+            //jouduin myös poistamaan static lauseet koodista jotta sen sai toimimaan? mikä on homman nimi?
         {
             int numero;
-            alku:
-            Console.WriteLine("Anna kokonaisluku väliltä 0-999, niin ohjelma muuttaa sen sanaksi: ");
+        suurialku:
+            Console.WriteLine("Anna kokonaisluku väliltä 0-999 jonka haluat että ohjelma muuttaa tekstiksi: ");
+
             try
             {
                 numero = Int32.Parse(Console.ReadLine());
             }
 
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
-                Console.WriteLine("Antamasi arvo ei ollut kokonaisluku, yritä uudestaan");
+                Console.WriteLine("Antamasi arvo ei ollut kokonaisluku, yritä uudelleen");
                 Console.WriteLine("paina ENTER");
                 Console.ReadLine();
+                goto suurialku;
             }
 
+            if (numero > 999 || numero < 0)
+            {
+                Console.WriteLine("Annoit luvun, joka ei ole välillä 0-999.");
+                Console.ReadLine();
+                goto suurialku;
+            }
+            else if (numero < 10)
+            {
+                string ykkonen;
+                ykkonen = ykkoset(numero);
+                Console.WriteLine(ykkonen);
+            }
+            else if (numero < 20)
+            {
+                string pkymmenen;
+                pkymmenen = poikkeuskymmenet(numero);
+                Console.WriteLine(pkymmenen);
+            }
+            else if (numero < 100)
+            {
+                string kymmenen;
+                kymmenen = kymmenet(numero);
+                Console.WriteLine(kymmenen);
+            }
+            else if (numero < 1000)
+            {
+                string sata;
+                sata = sadat(numero);
+                Console.WriteLine(sata);
+            }
 
+            string ykkoset(int number)
+            {
+                switch (number)
+                {
+                    case 1:
+                        return "Yksi";
+                        break;
+                    case 2:
+                        return "Kaksi";
+                        break;
+                    case 3:
+                        return "Kolme";
+                        break;
+                    case 4:
+                        return "Neljä";
+                        break;
+                    case 5:
+                        return "Viisi";
+                        break;
+                    case 6:
+                        return "Kuusi";
+                        break;
+                    case 7:
+                        return "Seitsemän";
+                        break;
+                    case 8:
+                        return "Kahdeksan";
+                        break;
+                    case 9:
+                        return "Yhdeksän";
+                        break;
+                    default:
+                        return "Eij";
+                        break;
+                }
+            }
+            string poikkeuskymmenet(int number)
+            {
+                switch (number)
+                {
+                    case 10:
+                        return "Kymmenen";
+                        break;
+                    case 11:
+                        return "Yksitoista";
+                        break;
+                    case 12:
+                        return "Kaksitoista";
+                        break;
+                    case 13:
+                        return "Kolmetoista";
+                        break;
+                    case 14:
+                        return "Neljätoista";
+                        break;
+                    case 15:
+                        return "Viisitoista";
+                        break;
+                    case 16:
+                        return "Kuusitoista";
+                        break;
+                    case 17:
+                        return "Seitsemäntoista";
+                        break;
+                    case 18:
+                        return "Kahdeksantoista";
+                        break;
+                    case 19:
+                        return "Yhdeksäntoista";
+                        break;
+                    default:
+                        return "Eij";
+                        break;
+                }
+            }
+            string kymmenet(int number)
+            {
+                string x = Convert.ToString(number);
+                string eka = x.Substring(0, 1);
+                string toka = x.Substring(1, 1);
+                number = Int32.Parse(eka);
+                int toinen = Int32.Parse(toka);
+                string y = ykkoset(toinen);
+                switch (number)
+                {
+                    case 2:
+                        return "Kaksikymmentä " + y;
+                        break;
+                    case 3:
+                        return "Kolmekymmentä " + y;
+                        break;
+                    case 4:
+                        return "Neljäkymmentä " + y;
+                        break;
+                    case 5:
+                        return "Viisikymmentä " + y;
+                        break;
+                    case 6:
+                        return "Kuusikymmentä " + y;
+                        break;
+                    case 7:
+                        return "Seitsemänkymmentä " + y;
+                        break;
+                    case 8:
+                        return "Kahdeksankymmentä " + y;
+                        break;
+                    case 9:
+                        return "Yhdeksänkymmentä " + y;
+                        break;
+                    default:
+                        return "Eij";
+                        break;
+                }
 
-            
-            Main();
-        }
-    } }
+            }
+            string sadat(int number)
+            {
+                string x = Convert.ToString(number);
+                string y;
+                string eka = x.Substring(0, 1);
+                string toka = x.Substring(1, 2);
+                string ptoka = x.Substring(1, 1);
+                number = Int32.Parse(eka);
+                int toinen = Int32.Parse(toka);
+                if (ptoka == "1")
+                {
+                    y = poikkeuskymmenet(toinen);
+                }
+                else
+                {
+                    y = kymmenet(toinen);
+                }
+                switch (number)
+                {
+                    case 1:
+                        return "Sata" + y;
+                        break;
+                    case 2:
+                        return "Kaksisataa " + y;
+                        break;
+                    case 3:
+                        return "Kolmesataa " + y;
+                        break;
+                    case 4:
+                        return "Neljäsataa " + y;
+                        break;
+                    case 5:
+                        return "Viisisataa " + y;
+                        break;
+                    case 6:
+                        return "Kuusisataa " + y;
+                        break;
+                    case 7:
+                        return "Seitsemänsataa " + y;
+                        break;
+                    case 8:
+                        return "Kahdeksansata a" + y;
+                        break;
+                    case 9:
+                        return "Yhdeksänsataa " + y;
+                        break;
+                    default:
+                        return "Eij";
+                        break;
+                }
+            }
+            Console.Write("Aloitetaanko alusta (k/e)?");
+            string vastaus = Console.ReadLine();
+            if (vastaus == "k" || vastaus == "K")
+            {
+                goto suurialku;
+            }
+        } } }
