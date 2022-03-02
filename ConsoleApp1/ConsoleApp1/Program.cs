@@ -10,15 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int arvottu;
-            Random luku = new Random();
 
-            for (int i = 1; i <= 7; i++)
-            {
-                arvottu = luku.Next(1, 39);
-                Console.Write("{0}, ", arvottu);
-            }
-            Console.ReadLine();
         }
     }
 }
