@@ -6,3 +6,11 @@ C:\Users\Oma\source\repos\ohjelmistokehittaja\Harjoitus 68\Harjoitus 68\obj\Debu
 C:\Users\Oma\source\repos\ohjelmistokehittaja\Harjoitus 68\Harjoitus 68\obj\Debug\Harjoitus 68.csproj.CoreCompileInputs.cache
 C:\Users\Oma\source\repos\ohjelmistokehittaja\Harjoitus 68\Harjoitus 68\obj\Debug\Harjoitus 68.exe
 C:\Users\Oma\source\repos\ohjelmistokehittaja\Harjoitus 68\Harjoitus 68\obj\Debug\Harjoitus 68.pdb
+C:\Users\Okehittaja\source\repos\ohjelmistokehittaja\Harjoitus 68\Harjoitus 68\bin\Debug\Harjoitus 68.exe.config
+C:\Users\Okehittaja\source\repos\ohjelmistokehittaja\Harjoitus 68\Harjoitus 68\bin\Debug\Harjoitus 68.exe
+C:\Users\Okehittaja\source\repos\ohjelmistokehittaja\Harjoitus 68\Harjoitus 68\bin\Debug\Harjoitus 68.pdb
+C:\Users\Okehittaja\source\repos\ohjelmistokehittaja\Harjoitus 68\Harjoitus 68\obj\Debug\Harjoitus 68.csproj.AssemblyReference.cache
+C:\Users\Okehittaja\source\repos\ohjelmistokehittaja\Harjoitus 68\Harjoitus 68\obj\Debug\Harjoitus 68.csproj.SuggestedBindingRedirects.cache
+C:\Users\Okehittaja\source\repos\ohjelmistokehittaja\Harjoitus 68\Harjoitus 68\obj\Debug\Harjoitus 68.csproj.CoreCompileInputs.cache
+C:\Users\Okehittaja\source\repos\ohjelmistokehittaja\Harjoitus 68\Harjoitus 68\obj\Debug\Harjoitus 68.exe
+C:\Users\Okehittaja\source\repos\ohjelmistokehittaja\Harjoitus 68\Harjoitus 68\obj\Debug\Harjoitus 68.pdb

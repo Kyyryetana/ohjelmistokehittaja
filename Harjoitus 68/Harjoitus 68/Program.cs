@@ -73,47 +73,67 @@ namespace Harjoitus_68
                         Console.ReadLine();
                         goto mainMenu; //luku ei ollut sopiva minkään casen kanssa, joten palataan takaisin tehtävän valitsemiseen
                 }
-            }
-            static void LaskeYhteen(int a, int b)
-            {
+        }
+        static void LaskeYhteen(int a, int b)
+        {
+            Console.WriteLine("Lukujen summa on: " + (a + b));
+            Console.ReadLine();
+        }
+        static void Fahrenheiteiksi(int a)
+        {
+            Console.WriteLine(a + " Celsius-astetta muutettuna Fahrenheitiksi on: " + ((a * 1.8) + 32));
+            Console.ReadLine();
+        }
+        static void Peruslaskutoimitukset(int a, int b)
+        {
+            Console.WriteLine("Summa: " + a + " + " + b + " = " + (a + b));
+            Console.WriteLine("Erotus: " + a + " - " + b + " = " + (a - b));
+            Console.WriteLine("Tulo: " + a + " * " + b + " = " + (a * b));
+            Console.WriteLine("Osamäärä: " + a + " / " + b + " = " + (double)a / b);
+            Console.ReadLine();
+        }
+        static void Jakojaannos(int a, int b)
+        {
+            int jakoj = a % b;
+            Console.WriteLine("Lukujen " + a + " ja " + b);
+            Console.WriteLine("Jakojäännös on " + jakoj);
+            Console.ReadLine();
+        }
+        static void Viesti()
+        {
+            Console.WriteLine("Anna tähän etunimesi: ");
+            string etuNimi = Console.ReadLine();
+            Console.WriteLine("Hei " + etuNimi);
+            Console.ReadLine();
+        }
+        static void LaskeYhteenKauttajanLuvut()
+        {
+            //try catchit tänne ja muihin
+            int eka, toka;
+            Console.WriteLine("Lasken yhteen kaksi antamaasi kokonaislukua");
+            Console.WriteLine("Anna 1. kokonaisluku: ");
+            eka = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Anna 2. kokonaisluku");
+            toka = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Antamiesi kokonaislukujen summa on: " + (eka+toka));
+            Console.ReadLine();
+        }
+        static void FahrenheiteiksiKauttajanLuku()
+        {
+            
+        }
+        static void PeruslaskutoimituksetKauttajanLuvuista()
+        {
 
-            }
-            static void Fahrenheiteiksi(int a)
-            {
+        }
+        static void JakojaannosKauttajanLuvuista()
+        {
 
-            }
-            static void Peruslaskutoimitukset(int a, int b)
-            {
+        }
+        static void KertotauluKauttajanLuvusta()
+        {
 
-            }
-            static void Jakojaannos(int a, int b)
-            {
-
-            }
-            static void Viesti()
-            {
-
-            }
-            static void LaskeYhteenKauttajanLuvut()
-            {
-
-            }
-            static void FahrenheiteiksiKauttajanLuku()
-            {
-
-            }
-            static void PeruslaskutoimituksetKauttajanLuvuista()
-            {
-
-            }
-            static void JakojaannosKauttajanLuvuista()
-            {
-
-            }
-            static void KertotauluKauttajanLuvusta()
-            {
-
-            }
+        }
         }
        
 } 
