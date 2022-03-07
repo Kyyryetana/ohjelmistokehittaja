@@ -108,31 +108,135 @@ namespace Harjoitus_68
         }
         static void LaskeYhteenKauttajanLuvut()
         {
-            //try catchit tänne ja muihin
+            LYKLalku:
             int eka, toka;
             Console.WriteLine("Lasken yhteen kaksi antamaasi kokonaislukua");
-            Console.WriteLine("Anna 1. kokonaisluku: ");
-            eka = Int32.Parse(Console.ReadLine());
-            Console.WriteLine("Anna 2. kokonaisluku");
-            toka = Int32.Parse(Console.ReadLine());
+
+            try
+            {
+                Console.WriteLine("Anna 1. kokonaisluku: ");
+                eka = Int32.Parse(Console.ReadLine());
+                Console.WriteLine("Anna 2. kokonaisluku: ");
+                toka = Int32.Parse(Console.ReadLine());
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.ToString());
+                Console.WriteLine("Antamasi arvo ei ollut kokonaisluku, kokeile uudelleen painamalla Enter.");
+                Console.ReadLine();
+                goto LYKLalku;
+            }
+            
             Console.WriteLine("Antamiesi kokonaislukujen summa on: " + (eka+toka));
             Console.ReadLine();
         }
         static void FahrenheiteiksiKauttajanLuku()
-        {
-            
+        {   
+            FKLalku:
+            int luku;
+            Console.WriteLine("Muutan antamasi Celsius-asteen Fahrenheitiksi (kokonaisluku)");
+
+            try
+            {
+                Console.WriteLine("Anna Celsius-aste jonka haluat muuttaa Fahrenheitiksi: ");
+                luku = Int32.Parse(Console.ReadLine());
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e.ToString());
+                Console.WriteLine("Antamasi Celsius-aste ei ollut kokonaisluku, kokeile uudelleen painamalla Enter.");
+                Console.ReadLine();
+                goto FKLalku;
+            }
+
+            Console.WriteLine("Antamasi Celsius-aste " + luku + " muutettuna Fahrenheitiksi on: " + ((luku * 1.8) + 32));
+            Console.ReadLine();
+
         }
         static void PeruslaskutoimituksetKauttajanLuvuista()
         {
+        PKLalku:
+            int luku1, luku2;
+            Console.WriteLine("Ohjelma kysyy sinulta 2kpl kokonaislukuja, joille suorittaa sen jälkeen peruslaskutoimitukset");
+
+            try
+            {
+                Console.WriteLine("Anna 1. luku: ");
+                luku1 = Int32.Parse(Console.ReadLine());
+                Console.WriteLine("Anna 2. luku: ");
+                luku2 = Int32.Parse(Console.ReadLine());
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.ToString());
+                Console.WriteLine("Antamasi arvo ei ollut kokonaisluku, kokeile uudelleen painamalla Enter.");
+                Console.ReadLine();
+                goto PKLalku;
+            }
+
+            Console.WriteLine("Summa: " + luku1 + " + " + luku2 + " = " + (luku1 + luku2));
+            Console.WriteLine("Erotus: " + luku1 + " - " + luku2 + " = " + (luku1 - luku2));
+            Console.WriteLine("Tulo: " + luku1 + " * " + luku2 + " = " + (luku1 * luku2));
+            Console.WriteLine("Osamäärä: " + luku1 + " / " + luku2 + " = " + (double)luku1 / luku2);
+            Console.ReadLine();
 
         }
         static void JakojaannosKauttajanLuvuista()
         {
+            jakoalku:
+            int luku1, luku2;
+            Console.WriteLine("Ohjelma kysyy sinulta 2kpl kokonaislukuja, joista laskee jakojäännöksen");
 
+            try
+            {
+                Console.WriteLine("Anna 1. kokonaisluku: ");
+                luku1 = Int32.Parse(Console.ReadLine());
+                Console.WriteLine("Anna 2. kokonaisluku: ");
+                luku2 = Int32.Parse(Console.ReadLine());
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.ToString());
+                Console.WriteLine("Antamasi arvo ei ollut kokonaisluku, kokeile uudelleen painamalla Enter.");
+                Console.ReadLine();
+                goto jakoalku;
+            }
+
+            int jakoj = luku1 % luku2;
+            Console.WriteLine("Lukujen " + luku1 + " ja " + luku2);
+            Console.WriteLine("Jakojäännös on " + jakoj);
+            Console.ReadLine();
         }
         static void KertotauluKauttajanLuvusta()
         {
+        kertoalku:
+            int luku1;
+            Console.WriteLine("Ohjelma kysyy sinulta yhden kokonaisluvun, jolla sitten suorittaa kymmenen kertotaulun.");
 
+            try
+            {
+                Console.WriteLine("Anna kokonaisluku jolla kertotaulu suoritetaan: ");
+                luku1 = Int32.Parse(Console.ReadLine());
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.ToString());
+                Console.WriteLine("Antamasi arvo ei ollut kokonaisluku, kokeile uudelleen painamalla Enter.");
+                Console.ReadLine();
+                goto kertoalku;
+            }
+
+            Console.WriteLine(" 1 x " + luku1 + " = " + (1 * luku1));
+            Console.WriteLine(" 2 x " + luku1 + " = " + (2 * luku1));
+            Console.WriteLine(" 3 x " + luku1 + " = " + (3 * luku1));
+            Console.WriteLine(" 4 x " + luku1 + " = " + (4 * luku1));
+            Console.WriteLine(" 5 x " + luku1 + " = " + (5 * luku1));
+            Console.WriteLine(" 6 x " + luku1 + " = " + (6 * luku1));
+            Console.WriteLine(" 7 x " + luku1 + " = " + (7 * luku1));
+            Console.WriteLine(" 8 x " + luku1 + " = " + (8 * luku1));
+            Console.WriteLine(" 9 x " + luku1 + " = " + (9 * luku1));
+            Console.WriteLine("10 x " + luku1 + " = " + (10 * luku1));
+            Console.ReadLine();
         }
         }
        
