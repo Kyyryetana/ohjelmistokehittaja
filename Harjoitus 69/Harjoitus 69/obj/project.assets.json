@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Oma\\.nuget\\packages\\": {}
+    "C:\\Users\\Okehittaja\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Oma\\source\\repos\\ohjelmistokehittaja\\Harjoitus 69\\Harjoitus 69\\Harjoitus 69.csproj",
+      "projectUniqueName": "C:\\Users\\Okehittaja\\source\\repos\\ohjelmistokehittaja\\Harjoitus 69\\Harjoitus 69\\Harjoitus 69.csproj",
       "projectName": "Harjoitus 69",
-      "projectPath": "C:\\Users\\Oma\\source\\repos\\ohjelmistokehittaja\\Harjoitus 69\\Harjoitus 69\\Harjoitus 69.csproj",
-      "packagesPath": "C:\\Users\\Oma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Oma\\source\\repos\\ohjelmistokehittaja\\Harjoitus 69\\Harjoitus 69\\obj\\",
+      "projectPath": "C:\\Users\\Okehittaja\\source\\repos\\ohjelmistokehittaja\\Harjoitus 69\\Harjoitus 69\\Harjoitus 69.csproj",
+      "packagesPath": "C:\\Users\\Okehittaja\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Okehittaja\\source\\repos\\ohjelmistokehittaja\\Harjoitus 69\\Harjoitus 69\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Oma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Okehittaja\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
