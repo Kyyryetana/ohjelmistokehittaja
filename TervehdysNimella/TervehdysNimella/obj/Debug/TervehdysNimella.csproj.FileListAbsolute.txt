@@ -1,8 +1,0 @@
-C:\Users\Okehittaja\source\repos\ohjelmistokehittaja\TervehdysNimella\TervehdysNimella\bin\Debug\TervehdysNimella.exe.config
-C:\Users\Okehittaja\source\repos\ohjelmistokehittaja\TervehdysNimella\TervehdysNimella\bin\Debug\TervehdysNimella.exe
-C:\Users\Okehittaja\source\repos\ohjelmistokehittaja\TervehdysNimella\TervehdysNimella\bin\Debug\TervehdysNimella.pdb
-C:\Users\Okehittaja\source\repos\ohjelmistokehittaja\TervehdysNimella\TervehdysNimella\obj\Debug\TervehdysNimella.csproj.SuggestedBindingRedirects.cache
-C:\Users\Okehittaja\source\repos\ohjelmistokehittaja\TervehdysNimella\TervehdysNimella\obj\Debug\TervehdysNimella.csproj.CoreCompileInputs.cache
-C:\Users\Okehittaja\source\repos\ohjelmistokehittaja\TervehdysNimella\TervehdysNimella\obj\Debug\TervehdysNimella.exe
-C:\Users\Okehittaja\source\repos\ohjelmistokehittaja\TervehdysNimella\TervehdysNimella\obj\Debug\TervehdysNimella.pdb
-C:\Users\Okehittaja\source\repos\ohjelmistokehittaja\TervehdysNimella\TervehdysNimella\obj\Debug\TervehdysNimella.csproj.AssemblyReference.cache
