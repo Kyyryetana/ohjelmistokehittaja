@@ -1,0 +1,11 @@
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\iän laskeminen\iän laskeminen\bin\Debug\iän laskeminen.exe.config
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\iän laskeminen\iän laskeminen\bin\Debug\iän laskeminen.exe
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\iän laskeminen\iän laskeminen\bin\Debug\iän laskeminen.pdb
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\iän laskeminen\iän laskeminen\obj\Debug\iän laskeminen.csproj.AssemblyReference.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\iän laskeminen\iän laskeminen\obj\Debug\iän laskeminen.csproj.SuggestedBindingRedirects.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\iän laskeminen\iän laskeminen\obj\Debug\iän_laskeminen.Form1.resources
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\iän laskeminen\iän laskeminen\obj\Debug\iän_laskeminen.Properties.Resources.resources
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\iän laskeminen\iän laskeminen\obj\Debug\iän laskeminen.csproj.GenerateResource.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\iän laskeminen\iän laskeminen\obj\Debug\iän laskeminen.csproj.CoreCompileInputs.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\iän laskeminen\iän laskeminen\obj\Debug\iän laskeminen.exe
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\iän laskeminen\iän laskeminen\obj\Debug\iän laskeminen.pdb

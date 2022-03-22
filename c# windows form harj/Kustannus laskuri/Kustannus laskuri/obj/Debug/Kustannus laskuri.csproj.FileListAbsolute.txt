@@ -1,0 +1,11 @@
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Kustannus laskuri\Kustannus laskuri\bin\Debug\Kustannus laskuri.exe.config
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Kustannus laskuri\Kustannus laskuri\bin\Debug\Kustannus laskuri.exe
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Kustannus laskuri\Kustannus laskuri\bin\Debug\Kustannus laskuri.pdb
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Kustannus laskuri\Kustannus laskuri\obj\Debug\Kustannus laskuri.csproj.AssemblyReference.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Kustannus laskuri\Kustannus laskuri\obj\Debug\Kustannus laskuri.csproj.SuggestedBindingRedirects.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Kustannus laskuri\Kustannus laskuri\obj\Debug\Kustannus_laskuri.LaskuriForm.resources
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Kustannus laskuri\Kustannus laskuri\obj\Debug\Kustannus_laskuri.Properties.Resources.resources
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Kustannus laskuri\Kustannus laskuri\obj\Debug\Kustannus laskuri.csproj.GenerateResource.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Kustannus laskuri\Kustannus laskuri\obj\Debug\Kustannus laskuri.csproj.CoreCompileInputs.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Kustannus laskuri\Kustannus laskuri\obj\Debug\Kustannus laskuri.exe
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Kustannus laskuri\Kustannus laskuri\obj\Debug\Kustannus laskuri.pdb
