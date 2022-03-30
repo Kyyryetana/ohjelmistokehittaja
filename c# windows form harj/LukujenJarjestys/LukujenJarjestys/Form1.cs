@@ -20,34 +20,38 @@ namespace LukujenJarjestys
 
         private void uusiLukuTB_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (e.KeyChar == (char)Keys.Enter) //lisää koodiin try catch ominaisuudet
+            if (e.KeyChar == (char)Keys.Enter)
             {
-                if (uusiLukuTB.Text == "-999")
+                try
                 {
-                    VastausLB.Text = "";
-                    int[] taulukko = jono.ToArray();
-                    Array.Sort(taulukko);
-                    foreach (var jasen in taulukko)
+                    if (uusiLukuTB.Text == "-999")
                     {
-                        VastausLB.Text += jasen + " ";
+                        VastausLB.Text = "";
+                        int[] taulukko = jono.ToArray();
+                        Array.Sort(taulukko);
+                        foreach (var jasen in taulukko)
+                        {
+                            VastausLB.Text += jasen + " ";
+                        }
+                        VastausLB.ForeColor = System.Drawing.Color.Black;
+                        VastausLB.Visible = true;
                     }
-                    VastausLB.Visible = true;
+                    else
+                    {
+                        VastausLB.Text = "";
+                        VastausLB.Visible = false;
+                        jono.Add(Int32.Parse(uusiLukuTB.Text));
+                        uusiLukuTB.Text = "";
+                    }
                 }
-                else
+                catch
                 {
-                    jono.Add(Int32.Parse(uusiLukuTB.Text));
-                    uusiLukuTB.Text = "";
+                    VastausLB.Text = "Virhe!";
+                    VastausLB.Visible = true;
+                    VastausLB.ForeColor = System.Drawing.Color.Red;
                 }
             }
-            if (e.KeyChar == (char)Keys.Escape)
-            {
-                TyhjaaLomake();
-            }
-        }
-
-        private void TyhjaaLomake()
-        {
-            uusiLukuTB.Text = "";
+            
         }
     }
 }

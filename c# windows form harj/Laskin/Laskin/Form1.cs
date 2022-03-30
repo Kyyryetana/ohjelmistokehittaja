@@ -19,6 +19,18 @@ namespace Laskin
 
         private void LaskeBT_Click(object sender, EventArgs e)
         {
+            int eka, toka;
+            try
+            {
+                eka = Int32.Parse(LukuYksiTB.Text);
+                toka = Int32.Parse(LukuKaksiTB.Text);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message + " Yritä uudelleen käyttämällä numeroita");
+                return;
+            }
+
             float luku1, luku2, vastaus;
             string merkki;
             luku1 = float.Parse(LukuYksiTB.Text);
@@ -40,8 +52,8 @@ namespace Laskin
                     vastaus = luku1 / luku2;
                     break;
                 default:
-                    vastaus = 0;
-                    break;
+                    MessageBox.Show("Valitse laskutoimituksen tyyli");
+                    return;
             }
 
             VastausLB.Text = Convert.ToString(vastaus);
