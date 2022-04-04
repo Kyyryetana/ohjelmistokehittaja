@@ -1,0 +1,11 @@
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Celcius to Fahrenheit\Celcius to Fahrenheit\bin\Debug\Celcius to Fahrenheit.exe.config
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Celcius to Fahrenheit\Celcius to Fahrenheit\bin\Debug\Celcius to Fahrenheit.exe
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Celcius to Fahrenheit\Celcius to Fahrenheit\bin\Debug\Celcius to Fahrenheit.pdb
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Celcius to Fahrenheit\Celcius to Fahrenheit\obj\Debug\Celcius to Fahrenheit.csproj.AssemblyReference.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Celcius to Fahrenheit\Celcius to Fahrenheit\obj\Debug\Celcius to Fahrenheit.csproj.SuggestedBindingRedirects.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Celcius to Fahrenheit\Celcius to Fahrenheit\obj\Debug\Celcius_to_Fahrenheit.Form1.resources
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Celcius to Fahrenheit\Celcius to Fahrenheit\obj\Debug\Celcius_to_Fahrenheit.Properties.Resources.resources
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Celcius to Fahrenheit\Celcius to Fahrenheit\obj\Debug\Celcius to Fahrenheit.csproj.GenerateResource.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Celcius to Fahrenheit\Celcius to Fahrenheit\obj\Debug\Celcius to Fahrenheit.csproj.CoreCompileInputs.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Celcius to Fahrenheit\Celcius to Fahrenheit\obj\Debug\Celcius to Fahrenheit.exe
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Celcius to Fahrenheit\Celcius to Fahrenheit\obj\Debug\Celcius to Fahrenheit.pdb

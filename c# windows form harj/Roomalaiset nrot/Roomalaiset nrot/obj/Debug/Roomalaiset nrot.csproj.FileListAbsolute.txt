@@ -1,0 +1,11 @@
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Roomalaiset nrot\Roomalaiset nrot\bin\Debug\Roomalaiset nrot.exe.config
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Roomalaiset nrot\Roomalaiset nrot\bin\Debug\Roomalaiset nrot.exe
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Roomalaiset nrot\Roomalaiset nrot\bin\Debug\Roomalaiset nrot.pdb
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Roomalaiset nrot\Roomalaiset nrot\obj\Debug\Roomalaiset nrot.csproj.AssemblyReference.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Roomalaiset nrot\Roomalaiset nrot\obj\Debug\Roomalaiset nrot.csproj.SuggestedBindingRedirects.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Roomalaiset nrot\Roomalaiset nrot\obj\Debug\Roomalaiset_nrot.form.resources
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Roomalaiset nrot\Roomalaiset nrot\obj\Debug\Roomalaiset_nrot.Properties.Resources.resources
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Roomalaiset nrot\Roomalaiset nrot\obj\Debug\Roomalaiset nrot.csproj.GenerateResource.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Roomalaiset nrot\Roomalaiset nrot\obj\Debug\Roomalaiset nrot.csproj.CoreCompileInputs.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Roomalaiset nrot\Roomalaiset nrot\obj\Debug\Roomalaiset nrot.exe
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Roomalaiset nrot\Roomalaiset nrot\obj\Debug\Roomalaiset nrot.pdb
