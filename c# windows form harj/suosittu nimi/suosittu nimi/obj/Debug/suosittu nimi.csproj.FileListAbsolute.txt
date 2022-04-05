@@ -1,0 +1,11 @@
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\suosittu nimi\suosittu nimi\bin\Debug\suosittu nimi.exe.config
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\suosittu nimi\suosittu nimi\bin\Debug\suosittu nimi.exe
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\suosittu nimi\suosittu nimi\bin\Debug\suosittu nimi.pdb
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\suosittu nimi\suosittu nimi\obj\Debug\suosittu nimi.csproj.AssemblyReference.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\suosittu nimi\suosittu nimi\obj\Debug\suosittu nimi.csproj.SuggestedBindingRedirects.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\suosittu nimi\suosittu nimi\obj\Debug\suosittu_nimi.suosittuNimiForm.resources
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\suosittu nimi\suosittu nimi\obj\Debug\suosittu_nimi.Properties.Resources.resources
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\suosittu nimi\suosittu nimi\obj\Debug\suosittu nimi.csproj.GenerateResource.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\suosittu nimi\suosittu nimi\obj\Debug\suosittu nimi.csproj.CoreCompileInputs.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\suosittu nimi\suosittu nimi\obj\Debug\suosittu nimi.exe
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\suosittu nimi\suosittu nimi\obj\Debug\suosittu nimi.pdb

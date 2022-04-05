@@ -1,0 +1,11 @@
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\10 kysymystä\10 kysymystä\bin\Debug\10 kysymystä.exe.config
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\10 kysymystä\10 kysymystä\bin\Debug\10 kysymystä.exe
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\10 kysymystä\10 kysymystä\bin\Debug\10 kysymystä.pdb
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\10 kysymystä\10 kysymystä\obj\Debug\10 kysymystä.csproj.AssemblyReference.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\10 kysymystä\10 kysymystä\obj\Debug\10 kysymystä.csproj.SuggestedBindingRedirects.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\10 kysymystä\10 kysymystä\obj\Debug\_10_kysymystä.kysymyksetForm.resources
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\10 kysymystä\10 kysymystä\obj\Debug\_10_kysymystä.Properties.Resources.resources
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\10 kysymystä\10 kysymystä\obj\Debug\10 kysymystä.csproj.GenerateResource.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\10 kysymystä\10 kysymystä\obj\Debug\10 kysymystä.csproj.CoreCompileInputs.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\10 kysymystä\10 kysymystä\obj\Debug\10 kysymystä.exe
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\10 kysymystä\10 kysymystä\obj\Debug\10 kysymystä.pdb

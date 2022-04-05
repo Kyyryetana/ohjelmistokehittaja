@@ -1,0 +1,11 @@
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Nopan heitto\Nopan heitto\bin\Debug\Nopan heitto.exe.config
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Nopan heitto\Nopan heitto\bin\Debug\Nopan heitto.exe
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Nopan heitto\Nopan heitto\bin\Debug\Nopan heitto.pdb
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Nopan heitto\Nopan heitto\obj\Debug\Nopan heitto.csproj.AssemblyReference.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Nopan heitto\Nopan heitto\obj\Debug\Nopan heitto.csproj.SuggestedBindingRedirects.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Nopan heitto\Nopan heitto\obj\Debug\Nopan_heitto.Form1.resources
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Nopan heitto\Nopan heitto\obj\Debug\Nopan_heitto.Properties.Resources.resources
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Nopan heitto\Nopan heitto\obj\Debug\Nopan heitto.csproj.GenerateResource.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Nopan heitto\Nopan heitto\obj\Debug\Nopan heitto.csproj.CoreCompileInputs.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Nopan heitto\Nopan heitto\obj\Debug\Nopan heitto.exe
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Nopan heitto\Nopan heitto\obj\Debug\Nopan heitto.pdb
