@@ -1,0 +1,11 @@
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Oppilaitosten avainhenkilöt\Oppilaitosten avainhenkilöt\obj\Debug\Oppilaitosten avainhenkilöt.csproj.AssemblyReference.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Oppilaitosten avainhenkilöt\Oppilaitosten avainhenkilöt\obj\Debug\Oppilaitosten avainhenkilöt.csproj.SuggestedBindingRedirects.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Oppilaitosten avainhenkilöt\Oppilaitosten avainhenkilöt\obj\Debug\Oppilaitosten_avainhenkilöt.oppilaitostenForm.resources
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Oppilaitosten avainhenkilöt\Oppilaitosten avainhenkilöt\obj\Debug\Oppilaitosten_avainhenkilöt.Properties.Resources.resources
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Oppilaitosten avainhenkilöt\Oppilaitosten avainhenkilöt\obj\Debug\Oppilaitosten avainhenkilöt.csproj.GenerateResource.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Oppilaitosten avainhenkilöt\Oppilaitosten avainhenkilöt\obj\Debug\Oppilaitosten avainhenkilöt.csproj.CoreCompileInputs.cache
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Oppilaitosten avainhenkilöt\Oppilaitosten avainhenkilöt\bin\Debug\Oppilaitosten avainhenkilöt.exe.config
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Oppilaitosten avainhenkilöt\Oppilaitosten avainhenkilöt\bin\Debug\Oppilaitosten avainhenkilöt.exe
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Oppilaitosten avainhenkilöt\Oppilaitosten avainhenkilöt\bin\Debug\Oppilaitosten avainhenkilöt.pdb
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Oppilaitosten avainhenkilöt\Oppilaitosten avainhenkilöt\obj\Debug\Oppilaitosten avainhenkilöt.exe
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\Oppilaitosten avainhenkilöt\Oppilaitosten avainhenkilöt\obj\Debug\Oppilaitosten avainhenkilöt.pdb
