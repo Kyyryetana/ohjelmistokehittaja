@@ -21,6 +21,7 @@ namespace Celcius_to_Fahrenheit
         {
             try
             {
+                //tarkistetaan että käyttäjä on syöttänyt numeroita
                 double annettu = Int32.Parse(asteetTB.Text);
                 vastausLB.Visible = false;
                 double vastaus;
@@ -41,6 +42,7 @@ namespace Celcius_to_Fahrenheit
                 }
                 else
                 {
+                    //käyttäjä ei valinnut radiobuttonia
                     vastausLB.Text = "Et antanut muunnettavaa astetta!";
                     vastausLB.Visible = true;
                     vastausLB.ForeColor = System.Drawing.Color.Red;
@@ -48,6 +50,7 @@ namespace Celcius_to_Fahrenheit
             }
             catch (Exception ex)
             {
+                //käyttäjä syötti muuta kuin numeroita
                 vastausLB.Text = ex.Message;
                 vastausLB.Visible = true;
                 vastausLB.ForeColor = System.Drawing.Color.Red;

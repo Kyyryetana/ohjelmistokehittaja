@@ -19,59 +19,60 @@ namespace BMI_laskuri
 
         private void laskeBTN_Click(object sender, EventArgs e)
         {
-            try // ei toimi, katso jyrin video https://www.youtube.com/watch?v=PoOuK726Lto
+            try
             {
-                double paino = 0, pituus = 0;
+                //kokeillaan että käyttäjä syöttää numeroita
+                double paino = 0, pituus = 0, bmi; //muuttujat desimaaleina mahdollisia
                 paino = Convert.ToDouble(painoTB.Text);
                 pituus = Convert.ToDouble(pituusTB.Text);
-                double bmi = Math.Round(paino / (pituus * pituus),2);
+                bmi = Math.Round(paino / (pituus * pituus), 2); //laskukaava, kahdella desimaalilla max
 
                 if(bmi < 18.5)
                 {
                     painoindeksiLB.Text = "Painoindeksisi on: " + bmi;
-                    painoindeksiLB.ForeColor = Color.DarkBlue;
-                    painoindeksiLB.Visible = true;
-                    painonVariLB.Text = "Alipaino";
-                    painonVariLB.ForeColor = Color.DarkBlue;
-                    painonVariLB.Visible = true;
+                    painoindeksiLB.ForeColor = Color.DarkBlue; //vastauksen väri muutetaan
+                    painoindeksiLB.Visible = true; // vastaus näkyviin
+                    painonVariLB.Text = "Alipaino"; //teksti muutettu
+                    painonVariLB.ForeColor = Color.DarkBlue; //vastauksen väri muutetaan
+                    painonVariLB.Visible = true; // vastaus näkyviin
                 }
                 else if(bmi < 25)
                 {
                     painoindeksiLB.Text = "Painoindeksisi on: " + bmi;
-                    painoindeksiLB.ForeColor = Color.LightBlue;
-                    painoindeksiLB.Visible = true;
-                    painonVariLB.Text = "Normaalipaino";
-                    painonVariLB.ForeColor = Color.LightBlue;
-                    painonVariLB.Visible = true;
+                    painoindeksiLB.ForeColor = Color.LightBlue; //vastauksen väri muutetaan
+                    painoindeksiLB.Visible = true; // vastaus näkyviin
+                    painonVariLB.Text = "Normaalipaino"; //teksti muutettu
+                    painonVariLB.ForeColor = Color.LightBlue; //vastauksen väri muutetaan
+                    painonVariLB.Visible = true; // vastaus näkyviin
                 }
                 else if (bmi < 40)
                 {
                     painoindeksiLB.Text = "Painoindeksisi on: " + bmi;
-                    painoindeksiLB.ForeColor = Color.OrangeRed;
-                    painoindeksiLB.Visible = true;
-                    painonVariLB.Text = "Ylipaino";
-                    painonVariLB.ForeColor = Color.OrangeRed;
-                    painonVariLB.Visible = true;
+                    painoindeksiLB.ForeColor = Color.OrangeRed; //vastauksen väri muutetaan
+                    painoindeksiLB.Visible = true; // vastaus näkyviin
+                    painonVariLB.Text = "Ylipaino"; //teksti muutettu
+                    painonVariLB.ForeColor = Color.OrangeRed; //vastauksen väri muutetaan
+                    painonVariLB.Visible = true; // vastaus näkyviin
                 }
                 else
                 {
                     painoindeksiLB.Text = "Painoindeksisi on: " + bmi;
-                    painoindeksiLB.ForeColor = Color.Red;
-                    painoindeksiLB.Visible = true;
-                    painonVariLB.Text = "Huomattava ylipaino";
-                    painonVariLB.ForeColor = Color.Red;
-                    painonVariLB.Visible = true;
+                    painoindeksiLB.ForeColor = Color.Red; //vastauksen väri muutetaan
+                    painoindeksiLB.Visible = true; // vastaus näkyviin
+                    painonVariLB.Text = "Huomattava ylipaino"; //teksti muutettu
+                    painonVariLB.ForeColor = Color.Red; //vastauksen väri muutetaan
+                    painonVariLB.Visible = true; // vastaus näkyviin
                 }
 
             }
             catch (Exception ex)
             {
-                painoindeksiLB.Text = ex.Message;
-                painoindeksiLB.ForeColor = Color.Red;
-                painoindeksiLB.Visible = true;
-                painonVariLB.Text = "Kokeile uudelleen";
-                painonVariLB.ForeColor = Color.Red;
-                painonVariLB.Visible = true;
+                painoindeksiLB.Text = ex.Message; //virhe viesti jos käyttäjä syöttää muuta kun numeroita ja desimaali lukuja
+                painoindeksiLB.ForeColor = Color.Red; // vastauksen väri muuttuu
+                painoindeksiLB.Visible = true; // vastaus näkyviin
+                painonVariLB.Text = "Kokeile uudelleen"; // teksti muutetaan
+                painonVariLB.ForeColor = Color.Red; // vastausken väri muuttuu
+                painonVariLB.Visible = true; // vastaus näkyviin
             }
         }
     }

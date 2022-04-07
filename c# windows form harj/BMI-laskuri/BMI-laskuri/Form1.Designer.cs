@@ -91,9 +91,9 @@
             this.cmLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmLB.Location = new System.Drawing.Point(258, 66);
             this.cmLB.Name = "cmLB";
-            this.cmLB.Size = new System.Drawing.Size(44, 25);
+            this.cmLB.Size = new System.Drawing.Size(72, 25);
             this.cmLB.TabIndex = 5;
-            this.cmLB.Text = "Cm";
+            this.cmLB.Text = "Metriä";
             // 
             // laskeBTN
             // 
@@ -132,7 +132,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(313, 349);
+            this.ClientSize = new System.Drawing.Size(332, 349);
             this.Controls.Add(this.painonVariLB);
             this.Controls.Add(this.painoindeksiLB);
             this.Controls.Add(this.laskeBTN);

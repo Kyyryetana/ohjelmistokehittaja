@@ -21,19 +21,21 @@ namespace Roomalaiset_nrot
         {
             try
             {
-                Int32.Parse(numeroTB.Text);
-                vastausLB.Visible = false;
+                Int32.Parse(numeroTB.Text); //tarkistewtaan että käyttäjä antaa numeroita
+                vastausLB.Visible = false; //vastaus piilossa
 
-                int luku1, luku2, luku3, luku4;
-                string vastaus = "";
+                int luku1, luku2, luku3, luku4; //muuttuja neljälle numerolle
+                string vastaus = ""; //vastauksen muuttuja
 
-                if (numeroTB.Text.Length > 3) //tuhatluku
+                if (numeroTB.Text.Length > 3) //tuhatluku, katsomme kuinka monta numeroa käyttäjä syöttää
                 {
+                    //eritellään numerot toisistaan substringillä
                     luku1 = Convert.ToInt32(numeroTB.Text.Substring(0, 1)); //tuhannet
                     luku2 = Convert.ToInt32(numeroTB.Text.Substring(1, 1)); //sadat
                     luku3 = Convert.ToInt32(numeroTB.Text.Substring(2, 1)); //kymmenet
                     luku4 = Convert.ToInt32(numeroTB.Text.Substring(3, 1)); //ykköset
 
+                    //katsotaan että millä tuhatluku on jaollinen
                     if (luku1 % 3 == 0)
                     {
                         vastaus += "MMM";
@@ -54,8 +56,9 @@ namespace Roomalaiset_nrot
                     vastaus += kympit(luku3, vastaus);
                     vastaus += ykkoset(luku4, vastaus);
                 }
-                else if (numeroTB.Text.Length > 2) //sataluku
+                else if (numeroTB.Text.Length > 2) //sataluku, katsomme kuinka monta numeroa käyttäjä syöttää
                 {
+                    //eritellään numerot toisistaan substringillä
                     luku2 = Convert.ToInt32(numeroTB.Text.Substring(0, 1)); //sadat
                     luku3 = Convert.ToInt32(numeroTB.Text.Substring(1, 1)); //kymmenet
                     luku4 = Convert.ToInt32(numeroTB.Text.Substring(2, 1)); //ykköset
@@ -63,8 +66,9 @@ namespace Roomalaiset_nrot
                     vastaus += kympit(luku3, vastaus);
                     vastaus += ykkoset(luku4, vastaus);
                 }
-                else if(numeroTB.Text.Length > 1) //kymmenluku
+                else if(numeroTB.Text.Length > 1) //kymmenluku, katsomme kuinka monta numeroa käyttäjä syöttää
                 {
+                    //eritellään numerot toisistaan substringillä
                     luku3 = Convert.ToInt32(numeroTB.Text.Substring(0, 1)); //kymmenet
                     luku4 = Convert.ToInt32(numeroTB.Text.Substring(1, 1)); //ykköset
                     vastaus += kympit(luku3, vastaus);
@@ -72,16 +76,18 @@ namespace Roomalaiset_nrot
                 }
                 else if(numeroTB.Text.Length > 0) //ykkösluku
                 {
-                    luku4 = Convert.ToInt32(numeroTB.Text.Substring(0, 1)); //ykköset
+                    //eritellään numerot toisistaan substringillä
+                    luku4 = Convert.ToInt32(numeroTB.Text.Substring(0, 1)); //ykköset, katsomme kuinka monta numeroa käyttäjä syöttää
                     vastaus += ykkoset(luku4, vastaus);
                 }
-                vastausLB.Text = vastaus;
+                vastausLB.Text = vastaus; //vastaus näkyviin ja normaalin värisenä
                 vastausLB.Visible = true;
                 vastausLB.ForeColor = System.Drawing.Color.Black;
             }
 
             catch (Exception ex)
             {
+                //käyttäjä syöttänyt jotain muuta kuin numeroita, virhe viesti punaisella näkyviin
                 vastausLB.Visible = true;
                 vastausLB.Text = ex.Message;
                 vastausLB.ForeColor = System.Drawing.Color.Red;

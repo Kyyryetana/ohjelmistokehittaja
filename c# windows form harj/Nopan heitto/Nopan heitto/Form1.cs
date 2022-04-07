@@ -32,7 +32,7 @@ namespace Nopan_heitto
             switch (noppa)
             {
                 case 1:
-                    NoppaBox.Image = Properties.Resources.noppa1;
+                    NoppaBox.Image = Properties.Resources.noppa1; //noudetaan kuvat properties>resources
                     break;
                 case 2:
                     NoppaBox.Image = Properties.Resources.noppa2;
