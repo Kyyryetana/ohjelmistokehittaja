@@ -16,10 +16,10 @@ C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\EncryptDecryp
 C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\EncryptDecrypt\EncryptDecrypt\obj\Debug\EncryptDecrypt.csproj.AssemblyReference.cache
 C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\EncryptDecrypt\EncryptDecrypt\obj\Debug\EncryptDecrypt.csproj.SuggestedBindingRedirects.cache
 C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\EncryptDecrypt\EncryptDecrypt\obj\Debug\EncryptDecrypt.exe.config
-C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\EncryptDecrypt\EncryptDecrypt\obj\Debug\EncryptDecrypt.Form1.resources
 C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\EncryptDecrypt\EncryptDecrypt\obj\Debug\EncryptDecrypt.Properties.Resources.resources
 C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\EncryptDecrypt\EncryptDecrypt\obj\Debug\EncryptDecrypt.csproj.GenerateResource.cache
 C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\EncryptDecrypt\EncryptDecrypt\obj\Debug\EncryptDecrypt.csproj.CoreCompileInputs.cache
 C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\EncryptDecrypt\EncryptDecrypt\obj\Debug\EncryptDecrypt.csproj.CopyComplete
 C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\EncryptDecrypt\EncryptDecrypt\obj\Debug\EncryptDecrypt.exe
 C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\EncryptDecrypt\EncryptDecrypt\obj\Debug\EncryptDecrypt.pdb
+C:\Users\Oma\source\repos\ohjelmistokehittaja\c# windows form harj\EncryptDecrypt\EncryptDecrypt\obj\Debug\EncryptDecrypt.salasanaForm.resources
