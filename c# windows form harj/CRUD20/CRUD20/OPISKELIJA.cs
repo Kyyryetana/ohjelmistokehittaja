@@ -14,12 +14,12 @@ namespace CRUD20
     {
         Yhdista yhteys = new Yhdista();
 
-        // funktio jonka avulla lisätään uusi asiakas
+        // funktio jonka avulla lisätään uusi asiakas tämä toimii
         public bool lisaaOpiskelija(String enimi, String snimi, String puh, String email, int onro)
         {
             MySqlCommand komento = new MySqlCommand();
             String lisayskysely = "INSERT INTO yhteystiedot " +
-                "(etunimi, sukunimi, puhelin, email, opiskelijanumero) " +
+                "(etunimi, sukunimi, puhelin, sähköposti, opiskelijanumero) " +
                 "VALUES (@enm, @snm, @puh, @eml, @ono); ";
             komento.CommandText = lisayskysely;
             komento.Connection = yhteys.otaYhteys();
@@ -44,7 +44,7 @@ namespace CRUD20
             }
         }
 
-        // opiskelijoiden tietojen nouto
+        // opiskelijoiden tietojen nouto tarkista tämän toiminta
         public DataTable haeOpiskelijat()
         {
             MySqlCommand komento = new MySqlCommand("SELECT oid, etunimi, sukunimi, puhelin, sähköposti, opiskelijanumero FROM yhteystiedot", yhteys.otaYhteys());
@@ -57,7 +57,7 @@ namespace CRUD20
             return taulu;
         }
 
-        // tietojen muokkaus
+        // tietojen muokkaus ei ilmeisesti toimi
         public bool muokkaaOpiskelijaa(int oid, String enimi, String snimi, String puh, String email, int oNro)
         {
             MySqlCommand komento = new MySqlCommand();
@@ -88,7 +88,7 @@ namespace CRUD20
             }
         }
 
-        // opiskelijan tietojen poisto
+        // opiskelijan tietojen poisto toimii
         public bool poistaOpiskelija(string ktunnus)
         {
             MySqlCommand komento = new MySqlCommand();
